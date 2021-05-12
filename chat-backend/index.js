@@ -4,7 +4,7 @@ const config = require("./config/app");
 
 const app = express();
 
-const port = config.appPort;
+const port = config.appPort || 3001;
 
 app.get("/", (req, res) => {
   res.send("This is home");
