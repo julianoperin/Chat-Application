@@ -1,7 +1,9 @@
-import "./App.css";
+import React from "react";
 import Login from "./components/Auth/Login";
 import Register from "./components/Auth/Register";
 import Chat from "./components/Chat/Chat";
+
+import "./App.scss";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
